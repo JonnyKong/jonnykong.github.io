@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{research.html}
+= Zhaoning Kong
+
+== Publications
+- *Distributed Dataset Synchronization in Disruptive Networks*\n
+Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang\n
+IEEE International Conference in Mobile Ad-Hoc and Smart Systems (MASS), 2019\n
+\[[https://www.researchgate.net/profile/Spyridon_Mastorakis/publication/337032871_Distributed_Dataset_Synchronization_in_Disruptive_Networks/links/5dc2dceca6fdcc21280bae79/Distributed-Dataset-Synchronization-in-Disruptive-Networks.pdf pdf]\]
+
+- *Evolving Intelligent Devices for the Future via Named Data Networking*\n
+Zhiyi Zhang, Edward Lu, Yu Guan, Tianxiang Li, Xinyu Ma, Zhaoning Kong, Lixia Zhang\n
+ACM XRDS Magazine, Fall 2019\n
+\[[https://dl.acm.org/ft_gateway.cfm?id=3351482&ftid=2084357&dwn=1&CFID=180567439&CFTOKEN=9f34fb6656f8e5bd-E263FBCC-A75A-3679-927AC564DF338D47 pdf]\]
+
+
+== Talks
+- [https://www.nist.gov/news-events/events/2019/09/ndn-community-meeting *GitSync*] at NDN Community Meeting, Sep 2019

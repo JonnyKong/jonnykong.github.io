@@ -1,2 +1,9 @@
-# jonnykong.github.io
-My personal website, current hosted on [UCLA CS](https://www.cs.ucla.edu/~jonnykong/).
+# Zhaoning Kong's Homepage
+
+This website is built using [jemdoc](http://jemdoc.jaboc.net/index.html).
+
+### Build
+
+```bash
+make clean && make
+```
