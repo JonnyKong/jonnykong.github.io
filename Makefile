@@ -8,14 +8,7 @@ docs : $(PHDOCS)
 	cp static/* build/
 	cp css/* build/
 
-.PHONY : update
-update : $(PHDOCS)
-	@echo -n 'Copying to server...'
-	@echo -n $(PHDOCS)
-	# insert code for copying to server here.
-	@echo ' done.'
-
-build/%.html : templates/%.jemdoc MENU
+build/%.html : templates/%.jemdoc MENU config.conf
 	python jemdoc.py -c config.conf -o $@ $<
 
 .PHONY : clean
