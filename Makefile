@@ -5,6 +5,8 @@ PHDOCS=$(addprefix build/, $(HDOCS))
 
 .PHONY : docs
 docs : $(PHDOCS)
+	cp static/* build/
+	cp css/* build/
 
 .PHONY : update
 update : $(PHDOCS)
@@ -18,4 +20,4 @@ build/%.html : templates/%.jemdoc MENU
 
 .PHONY : clean
 clean :
-	-rm -f build/*.html
+	-rm -f build/*

@@ -2,7 +2,7 @@
 = Zhaoning Kong
 
 ~~~
-{}{img_left}{../static/zhaoning_kong.jpeg}{Zhaoning Kong}{400px}
+{}{img_left}{zhaoning_kong.jpeg}{Zhaoning Kong}{400px}
 *Contact*: 
 
 Engineering VI 397, 404 Westwood Plaza
@@ -20,7 +20,7 @@ I’m a second-year master’s student at UCLA Computer Science, working at the 
 
 I have a broad interest in *systems*, *networking*, and *architecture*, including memory and storage systems, data center networking, distributed systems, operating systems, etc. Before coming to UCLA, I got my B.S. from [http://asee.buaa.edu.cn School of Automation and Electrical Engineering], [https://www.buaa.edu.cn Beihang University].
 
-Please feel free to download my [../static/cv.pdf CV].
+Please feel free to download my [cv.pdf CV].
 
 == What's New
 *Jan 2020* I am working as TA of CS 151B: Computer Systems Architecture (Winter 2020)
