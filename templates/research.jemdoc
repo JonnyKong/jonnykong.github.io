@@ -1,6 +1,15 @@
 # jemdoc: menu{MENU}{research.html}
 = Zhaoning Kong
 
+== Ongoing Research Project
+- *Physical Visualization Design (PVD)*
+-- PVD is a system that visualization designers can use to co-design the interface and system architecture of scalable and expressive visualizations
+-- Submitted to SIGMOD 2020 Demonstration track
+
+- *GitSync: Distributed Git over Named Data Networking (NDN)*
+-- Migrated Git push and fetch to run over NDN (instead of HTTPS/SSH)
+-- Designed access control policies and consistency mechanisms, removing the need for a central server
+
 == Publications
 - *Distributed Dataset Synchronization in Disruptive Networks*\n
 Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang\n
