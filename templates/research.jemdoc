@@ -4,13 +4,23 @@
 == Ongoing Research Projects
 - *Physical Visualization Design (PVD)*
 -- PVD is a system that visualization designers can use to co-design the interface and system architecture of scalable and expressive visualizations
--- Submitted to SIGMOD 2020 Demonstration track
 
 - *GitSync: Distributed Git over Named Data Networking (NDN)*
 -- Migrated Git push and fetch to run over NDN (instead of HTTPS/SSH)
--- Designed access control policies and consistency mechanisms, removing the need for a central server
+-- Designed access control policies and consistency mechanisms, removing the need for a central server\n
+[https://github.com/JonnyKong/GitSync  \[code\]]
+[research_gitsync_report.pdf  \[technical report pdf\]]
+
 
 == Publications
+- *Physical Visualization Design* (demo)\n
+Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu\n
+SIGMOD 2020 (to appear)
+
+- *Supporting Delay Tolerant Networking: A Comparative Study of Epidemic Routing and NDN*\n
+Tianxiang Li, Zhaoning Kong, Lixia Zhang\n
+IEEE ICC 2020 ICN-SRA workshop (to appear)
+
 - *Distributed Dataset Synchronization in Disruptive Networks*\n
 Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang\n
 IEEE International Conference in Mobile Ad-Hoc and Smart Systems (MASS), 2019\n
@@ -26,3 +36,4 @@ ACM XRDS Magazine, Fall 2019\n
 - *GitSync: Distributed Git over Named Data Networking (NDN)*\n
 In NDN Community Meeting 2019, NIST, Gaithersburg MD, U.S.\n
 [https://www.nist.gov/news-events/events/2019/09/ndn-community-meeting  \[watch\]]
+[research_talk_gitsync.pdf \[slides\]]
