@@ -3,8 +3,8 @@
 
 == Projects
 - *Named Data Networking (NDN) Repo* \[[https://github.com/JonnyKong/NDN-Repo code]\]
--- Repo is a component in the NDN architecture that enables persistent in-network storage.
--- Implemented a NDN Repo based on the [https://github.com/zjkmxy/python-ndn python-ndn] library.
+-- Repo is a component in the NDN architecture that enables persistent in-network storage
+-- Implemented a NDN Repo based on the [https://github.com/zjkmxy/python-ndn python-ndn] library
 
 - *RISC-V Vector Extension in Gem5* \[[https://github.com/JonnyKong/UCLA-CS251-Advanced-Computer-Architecture/tree/master/Course_Project code]\] \[[project_riscv_report.pdf report]\]
 -- Modified gem5 simulator to support a subset of RISC-V vector extensions in system-call emulation mode
