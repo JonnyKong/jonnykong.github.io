@@ -1,15 +1,15 @@
 # jemdoc: menu{MENU}{research.html}
 = Zhaoning Kong
 
-== Ongoing Research Projects
-- *Physical Visualization Design (PVD)*
--- PVD is a system that visualization designers can use to co-design the interface and system architecture of scalable and expressive visualizations
-
-- *GitSync: Distributed Git over Named Data Networking (NDN)*
--- Migrated Git push and fetch to run over NDN (instead of HTTPS/SSH)
--- Designed access control policies and consistency mechanisms, removing the need for a central server\n
-[https://github.com/JonnyKong/GitSync  \[code\]]
-[research_gitsync_report.pdf  \[technical report pdf\]]
+# == Ongoing Research Projects
+# - *Physical Visualization Design (PVD)*
+# -- PVD is a system that visualization designers can use to co-design the interface and system architecture of scalable and expressive visualizations
+# 
+# - *GitSync: Distributed Git over Named Data Networking (NDN)*
+# -- Migrated Git push and fetch to run over NDN (instead of HTTPS/SSH)
+# -- Designed access control policies and consistency mechanisms, removing the need for a central server\n
+# [https://github.com/JonnyKong/GitSync  \[code\]]
+# [research_gitsync_report.pdf  \[technical report pdf\]]
 
 
 == Publications
@@ -20,7 +20,8 @@ SIGMOD 2020\n
 
 - *Supporting Delay Tolerant Networking: A Comparative Study of Epidemic Routing and NDN*\n
 Tianxiang Li, Zhaoning Kong, Lixia Zhang\n
-IEEE ICC 2020 ICN-SRA workshop (to appear)
+IEEE ICC 2020 ICN-SRA workshop\n
+\[[http://ice-ar.named-data.net/assets/papers/li2020supporting.pdf pdf]\]
 
 - *Distributed Dataset Synchronization in Disruptive Networks*\n
 Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang\n
