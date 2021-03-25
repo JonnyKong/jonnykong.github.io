@@ -9,8 +9,9 @@ docs : $(PHDOCS)
 	cp css/* build/
 
 build/%.html : templates/%.jemdoc MENU config.conf
+	@mkdir -p build
 	python jemdoc.py -c config.conf -o $@ $<
 
 .PHONY : clean
 clean :
-	-rm -f build/*
+	rm -rf build/
