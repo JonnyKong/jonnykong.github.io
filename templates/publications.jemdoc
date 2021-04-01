@@ -11,13 +11,24 @@
 # [https://github.com/JonnyKong/GitSync  \[code\]]
 # [research_gitsync_report.pdf  \[technical report pdf\]]
 
+\* indicates an awarded paper
 
-== Publications
+
+== Mobile & Networked Systems
+- \**Throughput Prediction on 60 GHz Mobile Devices for High-Bandwidth, Latency-Sensitive Applications*\n
+Shivang Aggarwal, Zhaoning Kong, Moinak Ghoshal, Y. Charlie Hu, Dimitrios Koutsonikolas\n
+PAM 2021, Best Dataset Award\n
+\[[https://www.pam2021.b-tu.de/papers/10.1007978-3-030-72582-2_30.pdf pdf]\]
+
+
+== Databases
 - *Physical Visualization Design* (demo)\n
 Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu\n
 SIGMOD 2020\n
 \[[https://dl.acm.org/doi/abs/10.1145/3318464.3384711 pdf]\]
 
+
+== Named Data Networking (NDN)
 - *Supporting Delay Tolerant Networking: A Comparative Study of Epidemic Routing and NDN*\n
 Tianxiang Li, Zhaoning Kong, Lixia Zhang\n
 IEEE ICC 2020 ICN-SRA workshop\n
