@@ -1,23 +1,23 @@
-DOCS=$(basename $(notdir $(wildcard templates/*.jemdoc)))
+build=$(basename $(notdir $(wildcard templates/*.jemdoc)))
 
-HDOCS=$(addsuffix .html, $(DOCS))
-PHDOCS=$(addprefix docs/, $(HDOCS))
+Hbuild=$(addsuffix .html, $(build))
+PHbuild=$(addprefix build/, $(Hbuild))
 
-.PHONY : docs
+.PHONY : build
 # jemdoc incorrectly sets file with "index" in the filename to be selected
-docs : $(PHDOCS)
-	cp static/* docs/
-	cp css/* docs/
+build : $(PHbuild)
+	cp static/* build/
+	cp css/* build/
 	if [[ "$(shell uname -s)" == "Darwin" ]]; then \
-		sed -i '' 's/ class="current"//g' docs/index.html;\
+		sed -i '' 's/ class="current"//g' build/index.html;\
 	else \
-		sed -i 's/ class="current"//g' docs/index.html;\
+		sed -i 's/ class="current"//g' build/index.html;\
 	fi
 
-docs/%.html : templates/%.jemdoc MENU config.conf
-	@mkdir -p docs
+build/%.html : templates/%.jemdoc MENU config.conf
+	@mkdir -p build
 	python jemdoc.py -c config.conf -o $@ $<
 
 .PHONY : clean
 clean :
-	rm -rf docs/
+	rm -rf build/
