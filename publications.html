@@ -2,11 +2,23 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel=icon href="favicon.png" sizes="96x96" type="image/png">
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Zhaoning Kong</title> --->
 <title>Zhaoning Kong</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149756412-2"></script>
 <script>
@@ -17,10 +29,26 @@
 </script>
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Home</div>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="favicon.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">Zhaoning Kong</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
 <div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
 <div class="menu-category">Background</div>
 <div class="menu-item"><a href="education.html">Education</a></div>
@@ -34,8 +62,10 @@
 <div class="menu-item"><a href="https://stackoverflow.com/users/6060420/jonny-kong">Stack&nbsp;Overflow</a></div>
 <div class="menu-item"><a href="useful.html">Useful</a></div>
 <div class="menu-item"><a href="wiki/index.html">Wiki</a></div>
-</td>
-<td id="layout-content">
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
 <div id="toptitle">
 <h1>Zhaoning Kong</h1>
 </div>
@@ -45,15 +75,15 @@
 <li><p><b>Do Larger (More Accurate) Deep Neural Network Models Help in Edge-assisted Augmented Reality?</b> <br />
 Jiayi Meng*, Zhaoning Kong*, Qiang Xu, Y. Charlie Hu<br />
 ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI&rsquo;21)<br />
-[<a href="https://dl.acm.org/doi/abs/10.1145/3472727.3472807">pdf</a>]</p>
+[<a href="https://dl.acm.org/doi/abs/10.1145/3472727.3472807" target=&ldquo;blank&rdquo;>pdf</a>]</p>
 </li>
 </ul>
 <ul>
 <li><p>*<b>Throughput Prediction on 60 GHz Mobile Devices for High-Bandwidth, Latency-Sensitive Applications</b><br />
 Shivang Aggarwal, Zhaoning Kong, Moinak Ghoshal, Y. Charlie Hu, Dimitrios Koutsonikolas<br />
 PAM 2021, Best Dataset Award<br />
-[<a href="https://www.pam2021.b-tu.de/papers/10.1007978-3-030-72582-2_30.pdf">pdf</a>]
-[<a href="https://github.com/NUWiNS/pam2021-60ghz-throughput-prediction-data">dataset</a>]</p>
+[<a href="https://www.pam2021.b-tu.de/papers/10.1007978-3-030-72582-2_30.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/NUWiNS/pam2021-60ghz-throughput-prediction-data" target=&ldquo;blank&rdquo;>dataset</a>]</p>
 </li>
 </ul>
 <h2>Databases</h2>
@@ -61,7 +91,7 @@ PAM 2021, Best Dataset Award<br />
 <li><p><b>Physical Visualization Design</b> (demo)<br />
 Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu<br />
 SIGMOD 2020<br />
-[<a href="https://dl.acm.org/doi/abs/10.1145/3318464.3384711">pdf</a>]</p>
+[<a href="https://dl.acm.org/doi/abs/10.1145/3318464.3384711" target=&ldquo;blank&rdquo;>pdf</a>]</p>
 </li>
 </ul>
 <h2>Named Data Networking (NDN)</h2>
@@ -69,39 +99,63 @@ SIGMOD 2020<br />
 <li><p><b>Supporting Delay Tolerant Networking: A Comparative Study of Epidemic Routing and NDN</b><br />
 Tianxiang Li, Zhaoning Kong, Lixia Zhang<br />
 IEEE ICC 2020 ICN-SRA workshop<br />
-[<a href="http://ice-ar.named-data.net/assets/papers/li2020supporting.pdf">pdf</a>]</p>
+[<a href="http://ice-ar.named-data.net/assets/papers/li2020supporting.pdf" target=&ldquo;blank&rdquo;>pdf</a>]</p>
 </li>
 </ul>
 <ul>
 <li><p><b>Distributed Dataset Synchronization in Disruptive Networks</b><br />
 Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang<br />
 IEEE International Conference in Mobile Ad-Hoc and Smart Systems (MASS), 2019<br />
-[<a href="https://www.researchgate.net/profile/Spyridon_Mastorakis/publication/337032871_Distributed_Dataset_Synchronization_in_Disruptive_Networks/links/5dc2dceca6fdcc21280bae79/Distributed-Dataset-Synchronization-in-Disruptive-Networks.pdf">pdf</a>]
-[<a href="https://github.com/JonnyKong/DDSN-Simulation">code</a>]</p>
+[<a href="https://www.researchgate.net/profile/Spyridon_Mastorakis/publication/337032871_Distributed_Dataset_Synchronization_in_Disruptive_Networks/links/5dc2dceca6fdcc21280bae79/Distributed-Dataset-Synchronization-in-Disruptive-Networks.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/JonnyKong/DDSN-Simulation" target=&ldquo;blank&rdquo;>code</a>]</p>
 </li>
 </ul>
 <ul>
 <li><p><b>Evolving Intelligent Devices for the Future via Named Data Networking</b><br />
 Zhiyi Zhang, Edward Lu, Yu Guan, Tianxiang Li, Xinyu Ma, Zhaoning Kong, Lixia Zhang<br />
 ACM XRDS Magazine, Fall 2019<br />
-[<a href="https://dl.acm.org/ft_gateway.cfm?id=3351482&amp;ftid=2084357&amp;dwn=1&amp;CFID=180567439&amp;CFTOKEN=9f34fb6656f8e5bd-E263FBCC-A75A-3679-927AC564DF338D47">pdf</a>]</p>
+[<a href="https://dl.acm.org/ft_gateway.cfm?id=3351482&amp;ftid=2084357&amp;dwn=1&amp;CFID=180567439&amp;CFTOKEN=9f34fb6656f8e5bd-E263FBCC-A75A-3679-927AC564DF338D47" target=&ldquo;blank&rdquo;>pdf</a>]</p>
 </li>
 </ul>
 <h2>Talks</h2>
 <ul>
 <li><p><b>GitSync: Distributed Git over Named Data Networking (NDN)</b><br />
 In NDN Community Meeting 2019, NIST, Gaithersburg MD, U.S.<br />
-<a href="https://www.nist.gov/news-events/events/2019/09/ndn-community-meeting">[watch]</a>
-<a href="research_talk_gitsync.pdf">[slides]</a></p>
+<a href="https://www.nist.gov/news-events/events/2019/09/ndn-community-meeting" target=&ldquo;blank&rdquo;>[watch]</a>
+<a href="research_talk_gitsync.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
 </li>
 </ul>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-09-29 04:30:05 UTC, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
-</div>
-</div>
-</td>
-</tr>
-</table>
+Last edited  on September 29<sup>th</sup> 2021  05:09AM (Time Zone: UTC). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
 </body>
 </html>
