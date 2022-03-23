@@ -21,6 +21,10 @@ Previously, I got my M.S. from [https://www.cs.ucla.edu UCLA Computer Science], 
 
 == Recent Publications
 
+- *Do We Need Sophisticated System Design for Edge-assisted Augmented Reality?* \n
+Jiayi Meng, *Zhaoning Kong*, Y. Charlie Hu, Mun Gi Choi, Dhananjay Lal\n
+EdgeSys 2022\n
+
 - *Can 5G mmWave Support Multi-User AR Apps?* \n
 Moinak Ghoshal, Pranab Dash, *Zhaoning Kong*, Qiang Xu, Y. Charlie Hu, Dimitrios Koutsonikolas, Yuanjie Li\n
 PAM 2022\n
@@ -29,9 +33,3 @@ PAM 2022\n
 Jiayi Meng\*, *Zhaoning Kong*\*, Qiang Xu, Y. Charlie Hu\n
 SIGCOMM NAI Workshop 2021\n
 \[[https://dl.acm.org/doi/abs/10.1145/3472727.3472807 pdf]\]
-
-- *Throughput Prediction on 60 GHz Mobile Devices for High-Bandwidth, Latency-Sensitive Applications* \n
-Shivang Aggarwal, *Zhaoning Kong*, Moinak Ghoshal, Y. Charlie Hu, Dimitrios Koutsonikolas\n
-PAM 2021, Best Dataset Award\n
-\[[https://www.pam2021.b-tu.de/papers/10.1007978-3-030-72582-2_30.pdf pdf]\]
-\[[https://github.com/NUWiNS/pam2021-60ghz-throughput-prediction-data dataset]\]
