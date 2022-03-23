@@ -16,7 +16,7 @@ build : $(PHbuild)
 
 build/%.html : templates/%.jemdoc MENU config.conf
 	@mkdir -p build
-	python jemdoc.py -c config.conf -o $@ $<
+	python3 jemdoc.py -c config.conf -o $@ $<
 
 .PHONY : clean
 clean :
