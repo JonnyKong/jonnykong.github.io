@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{index.html}
 
 ~~~
-{}{img_left}{zhaoning_kong.jpeg}{Zhaoning Kong}{400px}
+{}{img_left}{zhaoning_kong.jpeg}{Jonny Kong}{400px}
 *Contact*: 
 
 MSEE 212, Purdue University
@@ -13,7 +13,7 @@ kong102 \[at\] purdue.edu
 \n
 \n
 
-I am a second-year PhD student in Computer Engineering at Purdue University, advised by [https://engineering.purdue.edu/~ychu/ Prof. Y. Charlie Hu]. My current research interest is in networked and mobile systems.
+I am a third-year PhD student in Computer Engineering at Purdue University, advised by [https://engineering.purdue.edu/~ychu/ Prof. Y. Charlie Hu]. My current research interest is in networked and mobile systems.
 
 Previously, I got my M.S. from [https://www.cs.ucla.edu UCLA Computer Science], working at the Internet Research Lab under the supervision of [http://web.cs.ucla.edu/~lixia/ Prof. Lixia Zhang] in 2020. I got my B.S. from [http://asee.buaa.edu.cn School of Automation and Electrical Engineering], [https://www.buaa.edu.cn Beihang University] in 2018.
 
@@ -21,17 +21,16 @@ Previously, I got my M.S. from [https://www.cs.ucla.edu UCLA Computer Science], 
 
 == Recent Publications
 
+- *AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality* \n
+*Jonny Kong\**, Qiang Xu\*, Jiayi Meng, Y. Charlie Hu (\* co-primary)\n
+ACM MobiCom 2023\n
+
+- *An In-Depth Study of Uplink Performance of 5G MmWave Networks* \n
+Moinak Ghoshal\*, *Jonny Kong\**, Qiang Xu*, Zixiao Lu, Shivang Aggarwal, Imran Khan, Yuanjie Li, Y. Charlie Hu, and Dimitrios Koutsonikolas (\* co-primary)\n
+ACM SIGCOMM 5G-MeMU Workshop 2022\n
+\[[https://dl.acm.org/doi/10.1145/3538394.3546042 pdf]\]
+
 - *Do We Need Sophisticated System Design for Edge-assisted Augmented Reality?* \n
-Jiayi Meng, *Zhaoning Kong*, Y. Charlie Hu, Mun Gi Choi, Dhananjay Lal\n
+Jiayi Meng, *Jonny Kong*, Y. Charlie Hu, Mun Gi Choi, Dhananjay Lal\n
 EdgeSys 2022, Best Paper Award\n
 \[[https://dl.acm.org/doi/10.1145/3517206.3526267 pdf]\]
-
-- *Can 5G mmWave Support Multi-User AR Apps?* \n
-Moinak Ghoshal, Pranab Dash, *Zhaoning Kong*, Qiang Xu, Y. Charlie Hu, Dimitrios Koutsonikolas, Yuanjie Li\n
-PAM 2022\n
-\[[https://ece.northeastern.edu/fac-ece/dkoutsonikolas/publications/pam22.pdf pdf]\]
-
-- *Do Larger (More Accurate) Deep Neural Network Models Help in Edge-assisted Augmented Reality?* \n
-Jiayi Meng\*, *Zhaoning Kong*\*, Qiang Xu, Y. Charlie Hu\n
-SIGCOMM NAI Workshop 2021\n
-\[[https://dl.acm.org/doi/abs/10.1145/3472727.3472807 pdf]\]

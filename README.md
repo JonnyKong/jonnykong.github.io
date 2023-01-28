@@ -1,4 +1,4 @@
-# Zhaoning Kong's Homepage
+# Jonny Kong's Homepage
 
 [![Test Badge](https://github.com/JonnyKong/jonnykong.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/JonnyKong/jonnykong.github.io/actions/workflows/deploy.yml)
 
