@@ -8,6 +8,10 @@ $base-font-size: 16px;
 .site-title:link,.site-title:visited {
     text-decoration: none;
 }
+.site-nav {
+    // Make dropdown always on top
+    z-index: 1000;
+}
 
 @import "{{ site.theme }}";
 
