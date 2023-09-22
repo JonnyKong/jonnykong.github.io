@@ -269,3 +269,10 @@ p.award {
     width: 45%;
     font-family: "Open Sans";
 }
+@media only screen and (max-width : 800px) {
+    #service_left, #service_right {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
