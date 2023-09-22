@@ -36,7 +36,6 @@ plugins:
 header_pages:
   - index.html
   - pages/publications.html
-  - pages/cv.html
   - pages/awards_and_services.html
 
 collections:
