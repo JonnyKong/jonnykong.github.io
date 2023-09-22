@@ -1,0 +1,19 @@
+---
+layout: base
+title: Publications
+permalink: /publications
+---
+
+<h2>Conference Publications</h2>
+{% for p in site.publications reversed %}
+    {% if p.is_conference == true %}
+        {{ p.content }}
+    {% endif %}
+{% endfor %}
+
+<h2 style="padding-top: 30px">Workshops</h2>
+{% for p in site.publications reversed %}
+    {% if p.is_conference == false %}
+        {{ p.content }}
+    {% endif %}
+{% endfor %}

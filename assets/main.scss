@@ -1,0 +1,271 @@
+---
+---
+
+$content-width: 1000px;
+$base-font-family: Roboto;
+$base-font-size: 16px;
+
+.site-title:link,.site-title:visited {
+    text-decoration: none;
+}
+
+@import "{{ site.theme }}";
+
+a:link,a:visited {
+    color: DarkBlue;
+    text-decoration:underline;
+}
+a:hover {
+    color: blue;
+}
+
+#main_header {
+    background-color: #EBEBEB;
+    height: 190px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+#main_header_photo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#main_header_intro {
+    float: right;
+    width: 210px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 140px;
+}
+
+#main_header_intro p {
+    line-height: 1.0;
+}
+
+#photo {
+    border-radius: 50%;
+}
+
+#main_about {
+    float: left;
+    width: 55%;
+}
+#main_about p {
+    text-align: justify;
+}
+
+#main_news {
+    float: right;
+    width: 42%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 420px;
+}
+
+#main_news iframe {
+    border: none;
+    top: 0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+}
+#main_recent {
+    padding-top: 30px;
+    float: left;
+    width: 100%;
+}
+
+#news {
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+@media only screen and (max-width : 800px) {
+  #main_about, #main_news {
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  #main_header {
+    height: 360px;
+  }
+  #main_header_photo, #main_header_intro {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main_recent {
+    padding-top: 100px;
+  }
+}
+
+div.social_icon {
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+i.social_icon {
+    font-size: 1.5em;
+    color: #000045;
+}
+i.fa-envelope:hover {
+    color: blue;
+}
+i.ai-google-scholar-square:hover {
+    color: red;
+}
+i.fa-twitter:hover {
+    color: #1DA1F2;
+}
+i.ai-acm:hover {
+    color: #4A8DB2;
+}
+i.fa-square-github:hover {
+    color: #2A3843;
+}
+i.ai-orcid:hover {
+    color: #ABCC50;
+}
+
+
+div.pub {
+    border-width: 1px;
+    border-style:solid;
+    border-color:grey;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1px 0px 1px 0px;
+    width: 100%;
+    position: relative;
+}
+div.pub > div.pub_picture {
+    float: left;
+    width: 25%;
+    height: 110px;
+    background-color: white;
+    margin: 5px 5px 5px 0px;
+    margin-bottom: auto;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+div.pub > div.pub_picture > img.pub_picture_img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+div.pub > div.pub_text {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 16px 4px 16px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    float: right;
+    width: 68%;
+    line-height: 1.2;
+    position: relative;
+    background-color: WhiteSmoke;
+}
+div.pub_text > p {
+    margin-bottom: 8px;
+}
+.venue {
+    display: inline-block;
+    background-color: #4863A0;
+    padding: 2px 4px 0px 4px;
+    margin: 5px 2px 0px 2px;
+    border-radius: 4px;
+    font-family: "Open Sans";
+    font-size: 11pt;
+    font-weight: 700;
+}
+.venue > a:link, .venue > a:visited {
+    color: white;
+    text-decoration: none;
+}
+.div_venue {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+.div_links {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+div.pub_text > .title {
+    width: 100%;
+    font-family: "Lucida Grande";
+    font-size: 13pt;
+    font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+div.pub_text > .venue_full {
+    width: 100%;
+    font-size: 11pt;
+    color: DimGray;
+    font-style: italic;
+}
+div.pub_text > .author {
+    font-family: "Open Sans";
+    font-size: 11pt;
+}
+@media only screen and (max-width : 800px) {
+    div.pub > div.pub_text {
+        padding: 0px 0px 0px 0px;
+        margin: 4px 2.5% 4px 2.5%;
+        width: 95%;
+        text-align: justify;
+        border-radius: 6px;
+        background-color: transparent;
+    }
+    div.pub > div.pub_picture {
+        visibility: hidden;
+        height: 0px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+i.pub_icon {
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 1.2em;
+    color: #000045;
+}
+div.award_div {
+    float: right;
+}
+p.award {
+    margin: 0px 0px 0px 0px;
+    font-family: "Lucida Grande";
+    font-weight: 700;
+    font-size: 11pt;
+}
+
+#service_left {
+    float: left;
+    width: 50%;
+    font-family: "Open Sans";
+}
+#service_right {
+    float: right;
+    width: 45%;
+    font-family: "Open Sans";
+}

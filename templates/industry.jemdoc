@@ -1,6 +1,0 @@
-# jemdoc: menu{MENU}{industry.html}
-
-== Industry
-- *Software Engineering Intern*, NetEase, Beijing, China\n
-Mar 2018 - Jun 2018\n
-Used NLP models to suggest related short phrases at each page footer in the [https://play.google.com/store/apps/details?id=com.netease.newsreader.activity NetEase News] app, which leads users to click on and jump to the search page

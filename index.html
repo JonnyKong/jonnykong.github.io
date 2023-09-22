@@ -1,0 +1,88 @@
+---
+layout: home
+---
+
+<div id="main">
+    <div id="main_header">
+        <div id="main_header_photo">
+            <img id="photo" src="/assets/images/zhaoning_kong.jpeg">
+        </div>
+        <div id="main_header_intro">
+            <h2>Z. Jonny Kong</h2>
+            <p>Ph.D. Student</p>
+            <p>School of Electrical and Computer Engineering</p>
+            <p>Purdue University</p>
+            <div>
+                <a href="mailto: kong102@purdue.edu">
+                    <div class="social_icon">
+                        <i class="social_icon fa-solid fa-envelope"></i>
+                    </div>
+                </a>
+                <a href="https://scholar.google.com/citations?user=rB99lxEAAAAJ&hl=en">
+                    <div class="social_icon">
+                        <i class="social_icon ai ai-google-scholar-square ai-3x"></i>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/zhaoning-kong-2774a8ab/">
+                    <div class="social_icon">
+                        <i class="social_icon fa fa-linkedin"></i>
+                    </div>
+                </a>
+                <a href="https://twitter.com/JonnyKong1996">
+                    <div class="social_icon">
+                        <i class="social_icon fa-brands fa-twitter"></i>
+                    </div>
+                </a>
+                <a href="https://dl.acm.org/profile/99660050618">
+                    <div class="social_icon">
+                        <i class="social_icon ai ai-acm ai-3x"></i>
+                    </div>
+                </a>
+                <a href="https://github.com/JonnyKong">
+                    <div class="social_icon">
+                        <i class="social_icon fa-brands fa-square-github"></i>
+                    </div>
+                </a>
+                <a href="https://orcid.org/0009-0009-8887-1698">
+                    <div class="social_icon">
+                        <i class="social_icon ai ai-orcid ai-3x"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="main_about">
+        <h1>About Me</h1>
+        <p>
+        I am a 4th-year PhD student in Computer Engineering at Purdue University,
+        advised by <a href="https://engineering.purdue.edu/~ychu/">Prof. Y. Charlie Hu</a>.
+        My general research interest is in networked systems, mobile systems,
+        and edge computing.
+        </p>
+        <p>
+        More recently, my research has been emphasizing on (1) Building edge
+        computing systems to support latency-critical applications such as
+        augmented reality (AR) and virtual reality (VR). (2) expermental
+        measurement studies on emerging mobile networks such as 5G mmWave. My
+        research has been acknowledged with a <b>Best Paper Award</b> from ACM
+        EdgeSys 2022, and a <b>Best Dataset Award</b> from PAM 2021.
+        </p>
+        <p>
+        Previously, I got my M.S. from the Dept. of Computer Science at UCLA in 2020,
+        working with <a href="https://web.cs.ucla.edu/~lixia/">Prof. Lixia Zhang</a>.
+        I got a B.E. in Automation from Beihang University in 2018.
+        <p>
+        </p>
+    </div>
+    <div id="main_news">
+        <iframe src="news.html"></iframe>
+    </div>
+</div>
+<div id="main_recent">
+    <h2 style='display:inline'>Recent Publications</h2><p style='display:inline'>&nbsp;&nbsp;&nbsp;(<a href="/publications.html">Full List</a>)</p>
+    {% for p in site.publications reversed %}
+        {% if p.is_recent == true %}
+            {{ p.content }}
+        {% endif %}
+    {% endfor %}
+</div>
