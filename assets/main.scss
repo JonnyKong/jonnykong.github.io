@@ -144,6 +144,63 @@ a:hover {
     color: #ffffff;
 }
 
+.pub-filter_button[data-topic-filter="ml-systems"],
+.pub-filter_button[data-home-filter="ml-systems"] {
+    background-color: #f4ece6;
+    border-color: #b66a2c;
+    color: #8b4d17;
+}
+
+.pub-filter_button[data-topic-filter="ml-systems"]:hover,
+.pub-filter_button[data-home-filter="ml-systems"]:hover {
+    background-color: #eedfcc;
+}
+
+.pub-filter_button[data-topic-filter="ml-systems"].is-active,
+.pub-filter_button[data-home-filter="ml-systems"].is-active {
+    background-color: #b66a2c;
+    border-color: #b66a2c;
+    color: #ffffff;
+}
+
+.pub-filter_button[data-topic-filter="networking"],
+.pub-filter_button[data-home-filter="networking"] {
+    background-color: #e9f3ea;
+    border-color: #3f8c52;
+    color: #2f6d3f;
+}
+
+.pub-filter_button[data-topic-filter="networking"]:hover,
+.pub-filter_button[data-home-filter="networking"]:hover {
+    background-color: #dcebdd;
+}
+
+.pub-filter_button[data-topic-filter="networking"].is-active,
+.pub-filter_button[data-home-filter="networking"].is-active {
+    background-color: #3f8c52;
+    border-color: #3f8c52;
+    color: #ffffff;
+}
+
+.pub-filter_button[data-topic-filter="networked-systems"],
+.pub-filter_button[data-home-filter="networked-systems"] {
+    background-color: #e8eff7;
+    border-color: #4f78a8;
+    color: #365779;
+}
+
+.pub-filter_button[data-topic-filter="networked-systems"]:hover,
+.pub-filter_button[data-home-filter="networked-systems"]:hover {
+    background-color: #d9e5f2;
+}
+
+.pub-filter_button[data-topic-filter="networked-systems"].is-active,
+.pub-filter_button[data-home-filter="networked-systems"].is-active {
+    background-color: #4f78a8;
+    border-color: #4f78a8;
+    color: #ffffff;
+}
+
 .pub-entry[hidden],
 .pub-section[hidden] {
     display: none;
@@ -262,6 +319,21 @@ div.pub_text > p {
     font-family: "Open Sans";
     font-size: 11pt;
     font-weight: 700;
+}
+
+.pub-entry[data-pub-topic="ml-systems"] .venue,
+.pub-entry[data-home-topic="ml-systems"] .venue {
+    background-color: #b66a2c;
+}
+
+.pub-entry[data-pub-topic="networking"] .venue,
+.pub-entry[data-home-topic="networking"] .venue {
+    background-color: #3f8c52;
+}
+
+.pub-entry[data-pub-topic="networked-systems"] .venue,
+.pub-entry[data-home-topic="networked-systems"] .venue {
+    background-color: #4f78a8;
 }
 .venue > a:link, .venue > a:visited {
     color: white;
