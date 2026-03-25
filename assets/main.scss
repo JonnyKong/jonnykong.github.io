@@ -76,7 +76,7 @@ a:hover {
 
 #main_about {
     float: left;
-    width: 55%;
+    width: 54%;
 }
 #main_about p {
     text-align: justify;
@@ -84,9 +84,9 @@ a:hover {
 
 #main_news {
     float: right;
-    width: 42%;
+    width: 40%;
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 3%;
     max-height: 340px;
     overflow-y: auto;
 }
@@ -109,6 +109,7 @@ a:hover {
     width: 100%;
   }
   #main_news {
+    margin-left: 0;
     max-height: none;
     overflow: visible;
   }
