@@ -87,8 +87,6 @@ a:hover {
     width: 40%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 3%;
-    max-height: 340px;
-    overflow-y: auto;
 }
 #main_recent {
     clear: both;
@@ -217,8 +215,6 @@ a:hover {
   }
   #main_news {
     margin-left: 0;
-    max-height: none;
-    overflow: visible;
   }
   #main_header {
     height: 360px;
