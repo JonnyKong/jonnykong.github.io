@@ -4,16 +4,66 @@ title: Publications
 permalink: /publications
 ---
 
+<div class="pub-filter" aria-label="Filter publications by topic">
+    <span class="pub-filter_label">Filter by topic:</span>
+    <button class="pub-filter_button is-active" type="button" data-topic-filter="all">All</button>
+    <button class="pub-filter_button" type="button" data-topic-filter="ml-systems">ML Systems</button>
+    <button class="pub-filter_button" type="button" data-topic-filter="networking">Wireless Networking</button>
+    <button class="pub-filter_button" type="button" data-topic-filter="networked-systems">Networked Systems</button>
+</div>
+
+<section class="pub-section" data-pub-section>
 <h2>Conference Publications</h2>
 {% for p in site.publications reversed %}
     {% if p.is_conference == true %}
+        <div class="pub-entry" data-pub-topic="{{ p.topic | default: 'uncategorized' }}">
         {{ p.content }}
+        </div>
     {% endif %}
 {% endfor %}
+</section>
 
+<section class="pub-section" data-pub-section>
 <h2 style="padding-top: 30px">Workshops</h2>
 {% for p in site.publications reversed %}
     {% if p.is_conference == false %}
+        <div class="pub-entry" data-pub-topic="{{ p.topic | default: 'uncategorized' }}">
         {{ p.content }}
+        </div>
     {% endif %}
 {% endfor %}
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = Array.from(document.querySelectorAll("[data-topic-filter]"));
+    const entries = Array.from(document.querySelectorAll("[data-pub-topic]"));
+    const sections = Array.from(document.querySelectorAll("[data-pub-section]"));
+
+    function applyFilter(topic) {
+        entries.forEach(function (entry) {
+            const matches = topic === "all" || entry.dataset.pubTopic === topic;
+            entry.hidden = !matches;
+        });
+
+        sections.forEach(function (section) {
+            const hasVisibleEntries = Array.from(section.querySelectorAll("[data-pub-topic]")).some(function (entry) {
+                return !entry.hidden;
+            });
+            section.hidden = !hasVisibleEntries;
+        });
+
+        buttons.forEach(function (button) {
+            button.classList.toggle("is-active", button.dataset.topicFilter === topic);
+        });
+    }
+
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            applyFilter(button.dataset.topicFilter);
+        });
+    });
+
+    applyFilter("all");
+});
+</script>
