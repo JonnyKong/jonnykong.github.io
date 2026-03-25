@@ -27,6 +27,7 @@ a:hover {
     background-color: #EBEBEB;
     height: 190px;
     width: 100%;
+    border-radius: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 25px;
@@ -47,10 +48,26 @@ a:hover {
     text-align: left;
     margin-left: auto;
     margin-right: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#main_header_intro h2 {
+    margin: 0;
+    line-height: 1.1;
 }
 
 #main_header_intro p {
-    line-height: 1.0;
+    line-height: 1.1;
+    margin: 0;
+}
+
+#main_header_intro > div {
+    margin-top: 0;
 }
 
 #photo {
@@ -70,19 +87,21 @@ a:hover {
     width: 42%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
-    height: 420px;
+    height: 340px;
 }
 
 #main_news iframe {
     border: none;
+    display: block;
     top: 0;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     width: 100%;
-    height: 500px;
+    height: 340px;
 }
 #main_recent {
-    padding-top: 30px;
+    clear: both;
+    padding-top: 12px;
     float: left;
     width: 100%;
 }
@@ -108,7 +127,7 @@ a:hover {
     text-align: center;
   }
   #main_recent {
-    padding-top: 100px;
+    padding-top: 24px;
   }
 }
 
@@ -146,7 +165,7 @@ div.pub {
     border-width: 1px;
     border-style:solid;
     border-color:grey;
-    border-radius: 6px;
+    border-radius: 10px;
     display: inline-block;
     margin: 1px 0px 1px 0px;
     width: 100%;
@@ -157,9 +176,9 @@ div.pub > div.pub_picture {
     width: 25%;
     height: 110px;
     background-color: white;
-    margin: 5px 5px 5px 0px;
+    margin: 8px 5px 8px 8px;
     margin-bottom: auto;
-    padding: 10px 0px 10px 10px;
+    padding: 8px 0px 8px 8px;
     position: relative;
 }
 div.pub > div.pub_picture > img.pub_picture_img {
@@ -177,8 +196,8 @@ div.pub > div.pub_picture > img.pub_picture_img {
 div.pub > div.pub_text {
     margin: 0px 0px 0px 0px;
     padding: 0px 16px 4px 16px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     float: right;
     width: 68%;
     line-height: 1.2;
@@ -237,7 +256,7 @@ div.pub_text > .author {
         margin: 4px 2.5% 4px 2.5%;
         width: 95%;
         text-align: justify;
-        border-radius: 6px;
+        border-radius: 10px;
         background-color: transparent;
     }
     div.pub > div.pub_picture {
